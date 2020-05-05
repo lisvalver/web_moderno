@@ -6,7 +6,29 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /* * */ seletor universal
+        /* .tag */ seletor de classe
+        /* #aprovados */ seletor de id
+        /* aninhado > div */ seletor do filho direto
+        /* aninhado section */ seletor de qualquer decendente direto
+        /* p + ul */ seletor de assemble adjacentes
+        /* p ~ ol */ seletor de assemble gerais com tag p anterior
+        /* [feira] */ seletor de propriedades
+        /* [feira=casa] */ seletor de propriedades associada a valor
+        /* [feira^=escritorio] */ seletor de propriedades buscando elementos
+        /* [feira*=asa] */ seletor de propriedades buscando valores
+        /* span:nth-child(1) */ seletor de span filho
+        /* section > :nth-child(odd) */ seletor de filhos impares da section
+        /* section > :nth-child(even) */ seletor de filhos pares da section
+        /* ul , p */ seletor de acumulação
+        /* ul p */ seletor de decendencia
+        
+        section > span:nth-of-type(2) {
+            color: #ff0;
+            background-color: #f77;
+        }
+        
+
     </style>
 </head>
 
